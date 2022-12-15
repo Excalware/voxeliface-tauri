@@ -7,10 +7,14 @@
 	"license": "MIT",
 	"dependencies": {
 		"@tauri-apps/api": "^1.2.0",
-		"react-error-boundary": "^3.1.4",
-		"voxeliface": "https://github.com/Excalware/react-voxeliface"
+		"react-error-boundary": "^3.1.4"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.0"
+	},
+	"peerDependencies": {
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"voxeliface": "^1.0.0"
 	}
 }
