@@ -1,7 +1,7 @@
 import React from 'react';
+import { Header, HeaderProps } from 'voxeliface';
 
 import WindowButtons from './WindowButtons';
-import Header, { HeaderProps } from 'voxeliface/components/Header';
 export type TauriHeaderProps = HeaderProps;
 export default function TauriHeader({ children, ...props }: TauriHeaderProps) {
     return <Header {...props}>

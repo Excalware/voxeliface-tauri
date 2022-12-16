@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"names":["default"],"mappings":"AACA,SAAoB,WAAXA,gBAA8B","sourcesContent":["export type { TauriHeaderProps } from './components/Header';\r\nexport { default as TauriHeader } from './components/Header';"]}
